@@ -20,6 +20,7 @@ public class ListController {
 
     static HashMap<String, String> columnChoices = new HashMap<>();
     static HashMap<String, Object> tableChoices = new HashMap<>();
+    private Job job;
 
     public ListController () {
         columnChoices.put("all", "All");
